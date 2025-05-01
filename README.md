@@ -4,3 +4,6 @@ Special thanks to https://github.com/XiaomiFirmwareUpdater for the idea, automat
 
 You can test the console version of the app here:
 https://replit.com/@chebishev/AllXiaomiDeviceCodes
+
+You can test the web version (API) of the app here:
+# TO BE ADDED AFTER SUCCESSFULL DEPLOYMENT
