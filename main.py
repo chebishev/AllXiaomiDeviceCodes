@@ -15,7 +15,7 @@ app = FastAPI(
     version="0.0.1",
     contact={
         "name": "Atanas Chebishev",
-        "url": "https://github.com/chebishev/",
+        "url": "https://chebishev.github.io/",
         "email": "atanas.chebishev@gmail.com",
     },
     license_info={
