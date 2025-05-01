@@ -17,5 +17,7 @@ for market_name, codenames in data.items():
 table.sortby = "Device"
 
 # Write to file
-with open("xiaomi_devices.txt", "w", encoding="utf-8") as f:
-    f.write(str(table))
+# with open("xiaomi_devices.txt", "w", encoding="utf-8") as f:
+#     f.write(str(table))
+
+print(table)
