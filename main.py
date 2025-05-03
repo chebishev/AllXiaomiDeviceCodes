@@ -1,6 +1,5 @@
 from fastapi import FastAPI
 from json_data import get_json_data
-from fix_model_names import correct_market_name
 
 description = """
     All Xiaomi mobile devices codenames API.
@@ -43,13 +42,9 @@ tags_metadata = [
     },
 ]
 
-market_name_as_key = {}
-codename_as_key = {}
+market_name_as_key = get_json_data("market_names_as_keys.json")
+codename_as_key = get_json_data("codenames_as_keys.json")
 
-for market_name, codenames in get_json_data().items():
-    current_market_name = correct_market_name(market_name)
-    market_name_as_key[current_market_name] = codenames[0]
-    codename_as_key[codenames[0]] = current_market_name
 
 @app.get("/all_devices_by_market_name", tags=["Devices by market name"])
 async def get_all_devices():
@@ -80,6 +75,8 @@ async def get_device_by_market_name(market_name: str):
         return {market_name: market_name_as_key[market_name]}
     else:
         return {"error": "Device not found"}
+    
+    # TODO: add proper 404 exception with description and status code
 
 
 @app.get("/device_by_codename/{codename}", tags=["Get Device by codename"])
@@ -97,6 +94,8 @@ async def get_device_by_codename(codename: str):
     else:
         return {"error": "Device not found"}
     
+
+# TODO: Add endpoint with link to device roms
 
 if __name__ == "__main__":
     import uvicorn
