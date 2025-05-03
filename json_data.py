@@ -13,3 +13,5 @@ def get_json_data():
     data = requests.get(url).json()
 
     return data
+
+# TODO: TO BE REMOVED

@@ -7,7 +7,8 @@ sitemap_url = "https://mirom.ezbox.idv.tw/sitemap.xml"
 xml_data = requests.get(sitemap_url).text
 root = ET.fromstring(xml_data)
 
-codenames_as_key = {}
+codenames_as_keys = {}
+market_names_as_keys = {}
 
 for url in root.findall(".//{http://www.sitemaps.org/schemas/sitemap/0.9}loc"):
     loc = url.text
@@ -17,14 +18,20 @@ for url in root.findall(".//{http://www.sitemaps.org/schemas/sitemap/0.9}loc"):
         last_breadcrumb = get_last_breadcrumb(loc)
         
         if last_breadcrumb:
-            # make codename as key and last breadcrumb list as value
-            # codenames_as_key[codename] = last_breadcrumb.split(" / ")
+            # get list of market names from last breadcrumb
             last_breadcrub_list = last_breadcrumb.split(" / ")
+            # make codename as key and last breadcrumb list as value
+            codenames_as_keys[codename] = last_breadcrub_list
+            # make market names as keys and codename as value
             for i in range(len(last_breadcrub_list)):
-                last_breadcrub_list[i] = codename
+                market_names_as_keys[last_breadcrub_list[i]] = codename
 
 file_name = "market_names_as_keys.json"
 with open(file_name, 'w') as json_file:
-    json.dump(codenames_as_key, json_file, indent=4)
+    json.dump(codenames_as_keys, json_file, indent=4)
+
+file_name = "codenames_as_keys.json"
+with open(file_name, 'w') as json_file:
+    json.dump(market_names_as_keys, json_file, indent=4)
 
 print(f"Data successfully written to {file_name}")
