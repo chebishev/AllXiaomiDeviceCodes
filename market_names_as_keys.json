@@ -113,10 +113,13 @@
         "Redmi Note 13 4G"
     ],
     "air": [
-        "Redmi 13R 5G | Redmi 13R 5G | POCO M6 5G"
+        "Redmi 13R 5G",
+        "Redmi 13R 5G",
+        "POCO M6 5G"
     ],
     "duchamp": [
-        "Redmi K70E | POCO X6 Pro"
+        "Redmi K70E",
+        "POCO X6 Pro"
     ],
     "manet": [
         "Redmi K70 Pro"
@@ -140,17 +143,20 @@
         "Xiaomi 13T"
     ],
     "garnet": [
-        "Redmi Note 13 Pro | POCO X6"
+        "Redmi Note 13 Pro",
+        "POCO X6"
     ],
     "gold": [
         "Redmi Note 13 5G",
-        "13R Pro | POCO X6 Neo 5G"
+        "13R Pro",
+        "POCO X6 Neo 5G"
     ],
     "zircon": [
         "Redmi Note 13 Pro+"
     ],
     "corot": [
-        "Redmi K60 Ultra | Xiaomi 13T Pro"
+        "Redmi K60 Ultra",
+        "Xiaomi 13T Pro"
     ],
     "xun": [
         "Redmi Pad SE"
@@ -162,7 +168,9 @@
         "Xiaomi MIX Fold 3"
     ],
     "sky": [
-        "Redmi Note 12R | Redmi 12 5G | POCO M6 Pro 5G"
+        "Redmi Note 12R",
+        "Redmi 12 5G",
+        "POCO M6 Pro 5G"
     ],
     "fire": [
         "Redmi 12"
@@ -200,7 +208,8 @@
     ],
     "water": [
         "POCO C51",
-        "Redmi A2/A2+"
+        "Redmi A2",
+        "A2+"
     ],
     "moonstone": [
         "POCO X5 5G"
@@ -251,7 +260,9 @@
         "Xiaomi 13 Lite"
     ],
     "ice": [
-        "Redmi A1/A1+ | POCO C50"
+        "Redmi A1",
+        "A1+",
+        "POCO C50"
     ],
     "rock": [
         "POCO M5"
@@ -289,7 +300,9 @@
     ],
     "xaga": [
         "Redmi Note 11T Pro",
-        "Pro+ | POCO X4 GT | Redmi K50i"
+        "Pro+",
+        "POCO X4 GT",
+        "Redmi K50i"
     ],
     "lilac": [
         "Redmi Note 10T (Japan)"
@@ -367,7 +380,9 @@
     ],
     "pissarro": [
         "Redmi Note 11 Pro",
-        "Pro+ (China) | Redmi Note 11 Pro+ 5G | Xiaomi 11i",
+        "Pro+ (China)",
+        "Redmi Note 11 Pro+ 5G",
+        "Xiaomi 11i",
         "Hypercharge (India)"
     ],
     "mona": [
@@ -383,7 +398,9 @@
         "Xiaomi 11 Lite 5G NE"
     ],
     "selene": [
-        "Redmi 10 | Redmi 10 Prime (India) | Redmi 10 2022"
+        "Redmi 10",
+        "Redmi 10 Prime (India)",
+        "Redmi 10 2022"
     ],
     "odin": [
         "Mi MIX 4"
@@ -437,7 +454,9 @@
         "Redmi Note 10 Pro"
     ],
     "camellia": [
-        "Redmi Note 10 5G (China) | Redmi Note 10T 5G (India) | Redmi Note 11SE"
+        "Redmi Note 10 5G (China)",
+        "Redmi Note 10T 5G (India)",
+        "Redmi Note 11SE"
     ],
     "sweetin": [
         "Redmi Note 10 Pro",
@@ -487,7 +506,7 @@
     ],
     "gauguin": [
         "Mi 10T Lite",
-        "Redmi Note 9 Pro 5G \u00a0(China)",
+        "Redmi Note 9 Pro 5G  (China)",
         "Mi 10i 5G"
     ],
     "shiva": [
@@ -585,7 +604,8 @@
     ],
     "tucana": [
         "Mi Note 10",
-        "10 Pro | Mi CC9 Pro"
+        "10 Pro",
+        "Mi CC9 Pro"
     ],
     "olive": [
         "Redmi 8"
@@ -684,7 +704,8 @@
         "Redmi 6 Pro"
     ],
     "clover": [
-        "MiPad 4/Plus"
+        "MiPad 4",
+        "Plus"
     ],
     "cereus": [
         "Redmi 6"
@@ -835,6 +856,7 @@
         "Mi 2S"
     ],
     "emerald": [
-        "POCO M6 Pro (4G) | Redmi Note 13 Pro 4G"
+        "POCO M6 Pro (4G)",
+        "Redmi Note 13 Pro 4G"
     ]
 }

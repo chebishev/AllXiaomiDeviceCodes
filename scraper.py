@@ -1,5 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
+import re
 
 def get_last_breadcrumb(url):
     """ 
@@ -15,6 +16,7 @@ def get_last_breadcrumb(url):
     breadcrumbs = soup.find_all("li", class_="breadcrumb-item")
     if breadcrumbs:
         raw = breadcrumbs[-1].text.strip()
-        # Split and strip extra whitespace and non-breaking spaces from each name
-        return [part.strip().replace('\xa0', '') for part in raw.split(" / ")]
+         # Split on ' / ' or ' | ' or variants with non-breaking space
+        parts = re.split(r'\s*[/|]\s*', raw.replace('\xa0', ' '))
+        return [part.strip() for part in parts]
     return None
