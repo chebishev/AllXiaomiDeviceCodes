@@ -45,6 +45,8 @@ tags_metadata = [
 market_name_as_key = get_json_data("market_names_as_keys.json")
 codename_as_key = get_json_data("codenames_as_keys.json")
 
+records_list = [{"market_name": k, "codename": v} for k, v in market_name_as_key.items()]
+
 
 @app.get("/all_devices_by_market_name", tags=["Devices by market name"])
 async def get_all_devices():
@@ -66,17 +68,17 @@ async def get_device_by_market_name(market_name: str):
     Retrieve an item by its market name.
 
     - **market_name**: The name that we all know (Xiaomi 11, Redmi 2, Poco F3 GT, etc.).
-    Please use the correct market name. It is case sensitive!
 
-    Returns the item's codename, otherwise raises a not found error.
+    Returns the codenames of all found items containing the queery, otherwise raises a not found error.
+    So search for "Xiaomi 11" will return all devices with "Xiaomi 11" in their name. (6 devices in total)
+    Search for "Mi note" will return all devices with "Mi note" in their name. (89 devices in total)
     """
-    
-    if market_name in market_name_as_key:
-        return {market_name: market_name_as_key[market_name]}
+    query = market_name.lower()
+    matches_list = [r for r in records_list if query in r["market_name"].lower()]
+    if matches_list:
+        return {match["market_name"]: match["codename"] for match in matches_list}
     else:
         raise HTTPException(status_code=404, detail="Device not found")
-    
-    # TODO: add proper 404 exception with description and status code
 
 
 @app.get("/device_by_codename/{codename}", tags=["Get Device by codename"])
@@ -85,13 +87,12 @@ async def get_device_by_codename(codename: str):
     Retrieve an item by its codename.
 
     - **codename**: The name that Xiaomi uses to identify the device or set of devices.
-    Please use the correct codename. It is case sensitive!
 
     Returns the item's market name, otherwise raises a not found error.
     """
     current_codename = codename.lower()
     if current_codename in codename_as_key:
-        return {codename: codename_as_key[current_codename]}
+        return {current_codename: codename_as_key[current_codename]}
     else:
         raise HTTPException(status_code=404, detail="Device not found")
     
