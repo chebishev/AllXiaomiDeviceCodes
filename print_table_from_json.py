@@ -1,6 +1,5 @@
 from json_data import get_json_data
 from prettytable import PrettyTable
-from fix_model_names import correct_market_name
 
 """This script is only used in 
 https://replit.com/@chebishev/AllXiaomiDeviceCodes
