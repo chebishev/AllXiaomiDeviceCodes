@@ -1,536 +1,176 @@
 {
-    "emerald_r": [
-        "Redmi Note 14S"
-    ],
-    "xuanyuan": [
-        "Xiaomi 15 Ultra"
-    ],
-    "obsidian": [
-        "Redmi Note 14 Pro 4G"
-    ],
-    "tanzanite": [
-        "Redmi Note 14 4G"
-    ],
-    "rodin": [
-        "Redmi Turbo 4",
-        "POCO X7 Pro"
-    ],
-    "warm": [
-        "Redmi A4 5G",
-        "POCO C75 5G"
-    ],
-    "dada": [
-        "Xiaomi 15"
-    ],
-    "haotian": [
-        "Xiaomi 15 Pro"
-    ],
-    "muyu": [
-        "Xiaomi Pad 7 Pro"
-    ],
-    "uke": [
-        "Xiaomi Pad 7"
-    ],
-    "amethyst": [
-        "Redmi Note 14 Pro+ 5G"
-    ],
-    "beryl": [
-        "Redmi Note 14 5G",
-        "POCO M7 Pro 5G"
-    ],
-    "degas": [
-        "Xiaomi 14T"
-    ],
-    "malachite": [
-        "Redmi Note 14 Pro 5G",
-        "POCO X7"
-    ],
-    "flame": [
-        "Redmi 14R 5G",
-        "Redmi 14C 5G",
-        "POCO M7 5G"
-    ],
-    "lake": [
-        "Redmi 14C",
-        "Redmi A3 Pro",
-        "POCO C75"
-    ],
-    "flare": [
-        "Redmi Pad SE 8.7"
-    ],
-    "spark": [
-        "Redmi Pad SE 8.7 4G"
-    ],
-    "goku": [
-        "Xiaomi MIX Fold 4"
-    ],
-    "rothko": [
-        "Redmi K70 Ultra",
-        "Xiaomi 14T Pro"
-    ],
-    "ruyi": [
-        "Xiaomi MIX Flip"
-    ],
-    "ruan": [
-        "Redmi Pad Pro 5G",
-        "POCO Pad 5G"
-    ],
-    "klein": [
-        "Redmi A3x"
-    ],
-    "moon": [
-        "Redmi 13",
-        "POCO M6 4G"
-    ],
-    "breeze": [
-        "Redmi Note 13R",
-        "Redmi 13 5G",
-        "POCO M6 Plus 5G"
-    ],
-    "peridot": [
-        "Redmi Turbo 3",
-        "POCO F6"
-    ],
-    "dizi": [
-        "Redmi Pad Pro"
-    ],
-    "chenfeng": [
-        "Xiaomi Civi 4",
-        "Xiaomi Civi 4 Pro"
-    ],
-    "shennong_t": [
-        "Xiaomi 14 Pro Ti Satellite"
-    ],
-    "sheng": [
-        "Xiaomi Pad 6S Pro 12.4"
-    ],
-    "aurora": [
-        "Xiaomi 14 Ultra"
-    ],
-    "sapphiren": [
-        "Redmi Note 13 4G NFC"
-    ],
-    "sapphire": [
-        "Redmi Note 13 4G"
+    "agate": [
+        "Xiaomi 11T"
     ],
     "air": [
         "Redmi 13R 5G",
         "Redmi 13C 5G",
         "POCO M6 5G"
     ],
-    "duchamp": [
-        "Redmi K70E",
-        "POCO X6 Pro"
-    ],
-    "manet": [
-        "Redmi K70 Pro"
-    ],
-    "vermeer": [
-        "Redmi K70",
-        "POCO F6 Pro"
-    ],
-    "gale": [
-        "Redmi 13C",
-        "POCO C65"
-    ],
-    "houji": [
-        "Xiaomi 14"
-    ],
-    "shennong": [
-        "Xiaomi 14 Pro",
-        "Xiaom 14 Pro Titanium"
-    ],
-    "aristotle": [
-        "Xiaomi 13T"
-    ],
-    "garnet": [
-        "Redmi Note 13 Pro",
-        "POCO X6"
-    ],
-    "gold": [
-        "Redmi Note 13 5G",
-        "Redmi Note 13R Pro",
-        "POCO X6 Neo 5G"
-    ],
-    "zircon": [
-        "Redmi Note 13 Pro+"
-    ],
-    "corot": [
-        "Redmi K60 Ultra",
-        "Xiaomi 13T Pro"
-    ],
-    "xun": [
-        "Redmi Pad SE"
-    ],
-    "yudi": [
-        "Xiaomi Pad 6 Max 14"
-    ],
-    "babylon": [
-        "Xiaomi MIX Fold 3"
-    ],
-    "sky": [
-        "Redmi Note 12R",
-        "Redmi 12 5G",
-        "POCO M6 Pro 5G"
-    ],
-    "fire": [
-        "Redmi 12"
-    ],
-    "pearl": [
-        "Redmi Note 12T Pro"
-    ],
-    "yuechu": [
-        "Xiaomi Civi 3"
-    ],
-    "sea": [
-        "Redmi Note 12S"
-    ],
-    "ishtar": [
-        "Xiaomi 13 Ultra"
-    ],
-    "liuqin": [
-        "Xiaomi Pad 6 Pro"
-    ],
-    "pipa": [
-        "Xiaomi Pad 6"
-    ],
-    "sweet_k6a": [
-        "Redmi Note 12 Pro 4G"
-    ],
-    "tapas": [
-        "Redmi Note 12 4G"
-    ],
-    "topaz": [
-        "Redmi Note 12 4G NFC"
-    ],
-    "marble": [
-        "Redmi Note 12 Turbo",
-        "POCO F5"
-    ],
-    "water": [
-        "POCO C51",
-        "Redmi A2",
-        "Redmi A2+"
-    ],
-    "moonstone": [
-        "POCO X5 5G"
-    ],
-    "earth": [
-        "Redmi 12C",
-        "POCO C55"
-    ],
-    "redwood": [
-        "Redmi Note 12 Pro Speed",
-        "POCO X5 5G Pro"
-    ],
-    "mondrian": [
-        "Redmi K60",
-        "POCO F5 Pro"
-    ],
-    "rembrandt": [
-        "Redmi K60E"
-    ],
-    "socrates": [
-        "Redmi K60 Pro"
-    ],
-    "fuxi": [
-        "Xiaomi 13"
-    ],
-    "nuwa": [
-        "Xiaomi 13 Pro"
-    ],
-    "ruby": [
-        "Redmi Note 12 Pro",
-        "Redmi Note 12 Pro+",
-        "Redmi Note 12 Explorer"
-    ],
-    "sunstone": [
-        "Redmi Note 12"
-    ],
-    "yunluo": [
-        "Redmi Pad"
-    ],
-    "plato": [
-        "Xiaomi 12T"
-    ],
-    "lightcm": [
-        "Redmi Note 11R"
-    ],
-    "ziyi": [
-        "Xiaomi Civi 2",
-        "Xiaomi 13 Lite"
-    ],
-    "ice": [
-        "Redmi A1",
-        "Redmi A1+",
-        "POCO C50"
-    ],
-    "rock": [
-        "POCO M5"
-    ],
-    "rosemary_p": [
-        "POCO M5s"
-    ],
-    "zizhan": [
-        "Xiaomi MIX Fold 2"
-    ],
-    "diting": [
-        "Redmi K50 Ultra",
-        "Xiaomi 12T Pro"
-    ],
-    "dagu": [
-        "Xiaomi Pad 5 Pro 12.4"
-    ],
-    "daumier": [
-        "Xiaomi 12 Pro (Dimensity)"
-    ],
-    "taoyao": [
-        "Xiaomi 12 Lite"
-    ],
-    "mayfly": [
-        "Xiaomi 12S"
-    ],
-    "thor": [
-        "Xiaomi 12S Ultra"
-    ],
-    "unicorn": [
-        "Xiaomi 12S Pro"
-    ],
-    "frost": [
-        "POCO C40"
-    ],
-    "xaga": [
-        "Redmi Note 11T Pro",
-        "Redmi Note 11T Pro+",
-        "POCO X4 GT",
-        "Redmi K50i"
-    ],
-    "lilac": [
-        "Redmi Note 10T (Japan)"
-    ],
-    "zijin": [
-        "Xiaomi Civi 1S"
-    ],
-    "dandelion_c3l2": [
-        "Redmi 10A"
-    ],
-    "opal": [
-        "Redmi Note 11S 5G"
-    ],
-    "munch": [
-        "Redmi K40S",
-        "POCO F4"
-    ],
-    "rubens": [
-        "Redmi K50"
-    ],
-    "matisse": [
-        "Redmi K50 Pro"
-    ],
-    "fog": [
-        "Redmi 10C"
-    ],
-    "vida": [
-        "Redmi Note 11 Pro 4G (India)"
-    ],
-    "light": [
-        "Redmi Note 11E",
-        "POCO M4 5G"
-    ],
-    "ingres": [
-        "Redmi K50 Gaming",
-        "Poco F4 GT"
-    ],
-    "spes": [
-        "Redmi Note 11"
-    ],
-    "fleur": [
-        "Redmi Note 11S",
-        "POCO M4 Pro"
-    ],
-    "veux": [
-        "Redmi Note 11 Pro 5G",
-        "Redmi Note 11E Pro",
-        "Redmi Note 11 Pro+ 5G (India)",
-        "POCO X4 Pro 5G"
-    ],
-    "viva": [
-        "Redmi Note 11 Pro 4G"
-    ],
-    "spesn": [
-        "Redmi Note 11 NFC"
-    ],
-    "cupid": [
-        "Xiaomi 12"
-    ],
-    "zeus": [
-        "Xiaomi 12 Pro"
-    ],
-    "psyche": [
-        "Xiaomi 12X"
-    ],
-    "selenes": [
-        "Redmi Note 11 4G (China)"
-    ],
-    "evergreen": [
-        "POCO M4 Pro 5G"
-    ],
-    "evergo": [
-        "Redmi Note 11 5G (China)",
-        "Redmi Note 11T 5G (India)"
-    ],
-    "pissarro": [
-        "Redmi Note 11 Pro",
-        "Redmi Note 11 Pro+ (China)",
-        "Redmi Note 11 Pro+ 5G",
-        "Xiaomi 11i",
-        "Xiaomi 11i Hypercharge 5G"
-    ],
-    "mona": [
-        "Xiaomi CIVI"
-    ],
-    "agate": [
-        "Xiaomi 11T"
-    ],
-    "vili": [
-        "Xiaomi 11T Pro"
-    ],
-    "lisa": [
-        "Xiaomi 11 Lite 5G NE"
-    ],
-    "selene": [
-        "Redmi 10",
-        "Redmi 10 Prime (India)",
-        "Redmi 10 2022"
-    ],
-    "odin": [
-        "Mi MIX 4"
-    ],
-    "nabu": [
-        "MiPad 5"
-    ],
-    "elish": [
-        "MiPad 5 Pro"
-    ],
-    "enuma": [
-        "MiPad 5 Pro 5G"
-    ],
-    "chopin": [
-        "Redmi Note 10 Pro (China)",
-        "POCO X3 GT"
-    ],
-    "biloba": [
-        "Redmi Note 8 (2021)"
-    ],
-    "ares": [
-        "Redmi K40 Gaming Edition",
-        "POCO F3 GT"
-    ],
-    "cetus": [
-        "Mi MIX FOLD"
-    ],
-    "star": [
-        "Mi 11 Pro",
-        "Xiaomi 11 Ultra"
-    ],
-    "renoir": [
-        "Mi 11 Lite 5G"
-    ],
-    "courbet": [
-        "Mi 11 Lite"
-    ],
-    "vayu": [
-        "POCO X3 Pro"
-    ],
-    "thyme": [
-        "Mi 10S"
-    ],
-    "mojito": [
-        "Redmi Note 10"
-    ],
-    "rosemary": [
-        "Redmi Note 10S"
-    ],
-    "sweet": [
-        "Redmi Note 10 Pro"
-    ],
-    "camellia": [
-        "Redmi Note 10 5G (China)",
-        "Redmi Note 10T 5G (India)",
-        "Redmi Note 11SE"
-    ],
-    "sweetin": [
-        "Redmi Note 10 Pro",
-        "Redmi Note 10 Pro Max (India)"
-    ],
-    "camellian": [
-        "Redmi Note 10 5G",
-        "Redmi Note 10T",
-        "POCO M3 Pro 5G"
-    ],
     "alioth": [
         "Redmi K40",
         "POCO F3",
         "Mi 11X"
     ],
-    "haydn": [
-        "Redmi K40 Pro",
-        "Redmi K40 Pro+",
-        "Mi 11i",
-        "Mi 11X Pro"
+    "amethyst": [
+        "Redmi Note 14 Pro+ 5G"
     ],
-    "cannong": [
-        "Redmi Note 9T 5G"
+    "andromeda": [
+        "Mi MIX 3 5G"
     ],
-    "venus": [
-        "Mi 11"
-    ],
-    "lime": [
-        "Redmi 9T",
-        "Redmi 9 Power",
-        "Redmi Note 9 4G (China)"
-    ],
-    "cannon": [
-        "Redmi Note 9 5G (China)"
-    ],
-    "citrus": [
-        "POCO M3"
+    "angelica": [
+        "Redmi 9C"
     ],
     "angelicain": [
         "POCO C3",
         "POCO C31"
+    ],
+    "angelican": [
+        "Redmi 9C NFC"
     ],
     "apollo": [
         "Mi 10T",
         "Mi 10T Pro",
         "Redmi K30S"
     ],
-    "gauguin": [
-        "Mi 10T Lite",
-        "Redmi Note 9 Pro 5G  (China)",
-        "Mi 10i 5G"
+    "ares": [
+        "Redmi K40 Gaming Edition",
+        "POCO F3 GT"
     ],
-    "shiva": [
-        "Poco M2"
+    "aries": [
+        "Mi 2S"
     ],
-    "surya": [
-        "POCO X3 NFC"
+    "aristotle": [
+        "Xiaomi 13T"
     ],
-    "angelican": [
-        "Redmi 9C NFC"
+    "armani": [
+        "Redmi 1S"
+    ],
+    "atom": [
+        "Redmi 10X"
+    ],
+    "aurora": [
+        "Xiaomi 14 Ultra"
+    ],
+    "babylon": [
+        "Xiaomi MIX Fold 3"
+    ],
+    "begonia": [
+        "Redmi Note 8 Pro"
+    ],
+    "beryl": [
+        "Redmi Note 14 5G",
+        "POCO M7 Pro 5G"
+    ],
+    "beryllium": [
+        "POCO F1"
+    ],
+    "biloba": [
+        "Redmi Note 8 (2021)"
+    ],
+    "bomb": [
+        "Redmi 10X Pro"
+    ],
+    "breeze": [
+        "Redmi Note 13R",
+        "Redmi 13 5G",
+        "POCO M6 Plus 5G"
+    ],
+    "cactus": [
+        "Redmi 6A"
+    ],
+    "camellia": [
+        "Redmi Note 10 5G (China)",
+        "Redmi Note 10T 5G (India)",
+        "Redmi Note 11SE"
+    ],
+    "camellian": [
+        "Redmi Note 10 5G",
+        "Redmi Note 10T",
+        "POCO M3 Pro 5G"
+    ],
+    "cancro": [
+        "Mi 3",
+        "Mi 4"
+    ],
+    "cannon": [
+        "Redmi Note 9 5G (China)"
+    ],
+    "cannong": [
+        "Redmi Note 9T 5G"
+    ],
+    "cappu": [
+        "MiPad 3"
+    ],
+    "capricorn": [
+        "Mi 5s"
+    ],
+    "cas": [
+        "Mi 10 Ultra"
     ],
     "cattail": [
         "Redmi 9 (India)",
         "Redmi 9 Activ"
     ],
-    "cas": [
-        "Mi 10 Ultra"
+    "cepheus": [
+        "Mi 9"
+    ],
+    "cereus": [
+        "Redmi 6"
+    ],
+    "cetus": [
+        "Mi MIX FOLD"
     ],
     "cezanne": [
         "Redmi K30 Ultra"
     ],
-    "gram": [
-        "POCO M2 Pro"
+    "chenfeng": [
+        "Xiaomi Civi 4",
+        "Xiaomi Civi 4 Pro"
+    ],
+    "chiron": [
+        "Mi MIX 2"
+    ],
+    "chopin": [
+        "Redmi Note 10 Pro (China)",
+        "POCO X3 GT"
+    ],
+    "citrus": [
+        "POCO M3"
+    ],
+    "clover": [
+        "MiPad 4",
+        "Mi Pad 4 Plus"
+    ],
+    "cmi": [
+        "Mi 10 Pro"
+    ],
+    "corot": [
+        "Redmi K60 Ultra",
+        "Xiaomi 13T Pro"
+    ],
+    "courbet": [
+        "Mi 11 Lite"
+    ],
+    "crux": [
+        "Mi 9 Pro 5G"
+    ],
+    "cupid": [
+        "Xiaomi 12"
+    ],
+    "curtana": [
+        "Redmi Note 9S",
+        "Redmi Note 9 Pro(India)",
+        "Redmi Note 10 Lite(India)"
+    ],
+    "dada": [
+        "Xiaomi 15"
+    ],
+    "dagu": [
+        "Xiaomi Pad 5 Pro 12.4"
+    ],
+    "daisy": [
+        "Mi A2 Lite"
     ],
     "dandelion": [
         "Redmi 9A",
@@ -539,59 +179,344 @@
         "Redmi 9A Sport",
         "Redmi 9i Sport"
     ],
-    "angelica": [
-        "Redmi 9C"
+    "dandelion_c3l2": [
+        "Redmi 10A"
     ],
-    "lancelot": [
-        "Redmi 9 (9 Prime India)"
+    "daumier": [
+        "Xiaomi 12 Pro (Dimensity)"
     ],
-    "atom": [
-        "Redmi 10X"
+    "davinci": [
+        "Redmi K20",
+        "Mi 9T"
     ],
-    "bomb": [
-        "Redmi 10X Pro"
+    "degas": [
+        "Xiaomi 14T"
     ],
-    "picasso_48m": [
-        "Redmi K30i 5G"
+    "dior": [
+        "Redmi Note 4G"
     ],
-    "merlin": [
-        "Redmi Note 9",
-        "Redmi 10X 4G"
+    "dipper": [
+        "Mi 8"
+    ],
+    "diting": [
+        "Redmi K50 Ultra",
+        "Xiaomi 12T Pro"
+    ],
+    "dizi": [
+        "Redmi Pad Pro"
+    ],
+    "duchamp": [
+        "Redmi K70E",
+        "POCO X6 Pro"
+    ],
+    "earth": [
+        "Redmi 12C",
+        "POCO C55"
+    ],
+    "elish": [
+        "MiPad 5 Pro"
+    ],
+    "emerald": [
+        "POCO M6 Pro (4G)",
+        "Redmi Note 13 Pro 4G"
+    ],
+    "emerald_r": [
+        "Redmi Note 14S"
+    ],
+    "enuma": [
+        "MiPad 5 Pro 5G"
+    ],
+    "equuleus": [
+        "Mi 8 Pro (UD)"
+    ],
+    "evergo": [
+        "Redmi Note 11 5G (China)",
+        "Redmi Note 11T 5G (India)"
+    ],
+    "evergreen": [
+        "POCO M4 Pro 5G"
+    ],
+    "excalibur": [
+        "Redmi Note 9 Pro Max"
+    ],
+    "ferrari": [
+        "Mi 4i"
+    ],
+    "fire": [
+        "Redmi 12"
+    ],
+    "flame": [
+        "Redmi 14R 5G",
+        "Redmi 14C 5G",
+        "POCO M7 5G"
+    ],
+    "flare": [
+        "Redmi Pad SE 8.7"
+    ],
+    "fleur": [
+        "Redmi Note 11S",
+        "POCO M4 Pro"
+    ],
+    "fog": [
+        "Redmi 10C"
+    ],
+    "frost": [
+        "POCO C40"
+    ],
+    "fuxi": [
+        "Xiaomi 13"
+    ],
+    "gale": [
+        "Redmi 13C",
+        "POCO C65"
+    ],
+    "garnet": [
+        "Redmi Note 13 Pro",
+        "POCO X6"
+    ],
+    "gauguin": [
+        "Mi 10T Lite",
+        "Redmi Note 9 Pro 5G  (China)",
+        "Mi 10i 5G"
+    ],
+    "gemini": [
+        "Mi 5"
+    ],
+    "ginkgo": [
+        "Redmi Note 8"
+    ],
+    "goku": [
+        "Xiaomi MIX Fold 4"
+    ],
+    "gold": [
+        "Redmi Note 13 5G",
+        "Redmi Note 13R Pro",
+        "POCO X6 Neo 5G"
+    ],
+    "gram": [
+        "POCO M2 Pro"
+    ],
+    "grus": [
+        "Mi 9 SE"
+    ],
+    "haotian": [
+        "Xiaomi 15 Pro"
+    ],
+    "haydn": [
+        "Redmi K40 Pro",
+        "Redmi K40 Pro+",
+        "Mi 11i",
+        "Mi 11X Pro"
+    ],
+    "helium": [
+        "Mi Max Prime"
+    ],
+    "hermes": [
+        "Redmi Note 2"
+    ],
+    "houji": [
+        "Xiaomi 14"
+    ],
+    "hydrogen": [
+        "Mi Max"
+    ],
+    "ice": [
+        "Redmi A1",
+        "Redmi A1+",
+        "POCO C50"
+    ],
+    "ingres": [
+        "Redmi K50 Gaming",
+        "Poco F4 GT"
+    ],
+    "ishtar": [
+        "Xiaomi 13 Ultra"
+    ],
+    "jasmine": [
+        "Mi A2"
+    ],
+    "jason": [
+        "Mi Note 3"
     ],
     "joyeuse": [
         "Redmi Note 9 Pro"
     ],
-    "toco": [
-        "Mi Note 10 Lite"
+    "kate": [
+        "Redmi Note 3 Special Edition"
     ],
-    "vangogh": [
-        "Mi 10 Lite Zoom (Youth)"
+    "kenzo": [
+        "Redmi Note 3 Pro"
     ],
-    "olivewood": [
-        "Redmi 8A Pro",
-        "Redmi 8A Dual"
+    "klein": [
+        "Redmi A3x"
+    ],
+    "lake": [
+        "Redmi 14C",
+        "Redmi A3 Pro",
+        "POCO C75"
+    ],
+    "lancelot": [
+        "Redmi 9 (9 Prime India)"
+    ],
+    "land": [
+        "Redmi 3S"
+    ],
+    "latte": [
+        "MiPad 2"
+    ],
+    "laurel_sprout": [
+        "Mi A3"
+    ],
+    "laurus": [
+        "Mi CC9e"
+    ],
+    "lavender": [
+        "Redmi Note 7"
+    ],
+    "lcsh92_wet_jb9": [
+        "Redmi Note 3G"
+    ],
+    "light": [
+        "Redmi Note 11E",
+        "POCO M4 5G"
+    ],
+    "lightcm": [
+        "Redmi Note 11R"
+    ],
+    "lilac": [
+        "Redmi Note 10T (Japan)"
+    ],
+    "lime": [
+        "Redmi 9T",
+        "Redmi 9 Power",
+        "Redmi Note 9 4G (China)"
+    ],
+    "lisa": [
+        "Xiaomi 11 Lite 5G NE"
+    ],
+    "lithium": [
+        "Mi MIX"
+    ],
+    "liuqin": [
+        "Xiaomi Pad 6 Pro"
     ],
     "lmi": [
         "Redmi K30 Pro",
         "Redmi K30 Pro Zoom Edition",
         "POCO F2 Pro"
     ],
-    "curtana": [
-        "Redmi Note 9S",
-        "Redmi Note 9 Pro(India)",
-        "Redmi Note 10 Lite(India)"
+    "lotus": [
+        "Mi Play"
     ],
-    "excalibur": [
-        "Redmi Note 9 Pro Max"
+    "malachite": [
+        "Redmi Note 14 Pro 5G",
+        "POCO X7"
     ],
-    "umi": [
-        "Mi 10"
+    "manet": [
+        "Redmi K70 Pro"
     ],
-    "cmi": [
-        "Mi 10 Pro"
+    "marble": [
+        "Redmi Note 12 Turbo",
+        "POCO F5"
+    ],
+    "markw": [
+        "Redmi 4 Prime"
+    ],
+    "matisse": [
+        "Redmi K50 Pro"
+    ],
+    "mayfly": [
+        "Xiaomi 12S"
+    ],
+    "merlin": [
+        "Redmi Note 9",
+        "Redmi 10X 4G"
+    ],
+    "mido": [
+        "Redmi Note 4X"
+    ],
+    "mocha": [
+        "MiPad 1"
+    ],
+    "mojito": [
+        "Redmi Note 10"
+    ],
+    "mona": [
+        "Xiaomi CIVI"
+    ],
+    "mondrian": [
+        "Redmi K60",
+        "POCO F5 Pro"
     ],
     "monet": [
         "Mi 10 Lite"
+    ],
+    "moon": [
+        "Redmi 13",
+        "POCO M6 4G"
+    ],
+    "moonstone": [
+        "POCO X5 5G"
+    ],
+    "munch": [
+        "Redmi K40S",
+        "POCO F4"
+    ],
+    "muyu": [
+        "Xiaomi Pad 7 Pro"
+    ],
+    "nabu": [
+        "MiPad 5"
+    ],
+    "natrium": [
+        "Mi 5s Plus"
+    ],
+    "nikel": [
+        "Redmi Note 4"
+    ],
+    "nitrogen": [
+        "Mi Max 3"
+    ],
+    "nuwa": [
+        "Xiaomi 13 Pro"
+    ],
+    "obsidian": [
+        "Redmi Note 14 Pro 4G"
+    ],
+    "odin": [
+        "Mi MIX 4"
+    ],
+    "olive": [
+        "Redmi 8"
+    ],
+    "olivelite": [
+        "Redmi 8A"
+    ],
+    "olivewood": [
+        "Redmi 8A Pro",
+        "Redmi 8A Dual"
+    ],
+    "onc": [
+        "Redmi Y3"
+    ],
+    "onclite": [
+        "Redmi 7"
+    ],
+    "opal": [
+        "Redmi Note 11S 5G"
+    ],
+    "oxygen": [
+        "Mi Max 2"
+    ],
+    "pearl": [
+        "Redmi Note 12T Pro"
+    ],
+    "peridot": [
+        "Redmi Turbo 3",
+        "POCO F6"
+    ],
+    "perseus": [
+        "Mi MIX 3"
     ],
     "phoenix": [
         "Redmi K30",
@@ -600,264 +525,339 @@
     "picasso": [
         "Redmi K30 5G"
     ],
-    "willow": [
-        "Redmi Note 8T"
+    "picasso_48m": [
+        "Redmi K30i 5G"
+    ],
+    "pine": [
+        "Redmi 7A"
+    ],
+    "pipa": [
+        "Xiaomi Pad 6"
+    ],
+    "pissarro": [
+        "Redmi Note 11 Pro",
+        "Redmi Note 11 Pro+ (China)",
+        "Redmi Note 11 Pro+ 5G",
+        "Xiaomi 11i",
+        "Xiaomi 11i Hypercharge 5G"
+    ],
+    "platina": [
+        "Mi 8 Lite"
+    ],
+    "plato": [
+        "Xiaomi 12T"
+    ],
+    "polaris": [
+        "Mi MIX 2S"
+    ],
+    "prada": [
+        "Redmi 4"
+    ],
+    "psyche": [
+        "Xiaomi 12X"
+    ],
+    "pyxis": [
+        "Mi CC9",
+        "Mi 9 Lite"
+    ],
+    "raphael": [
+        "Redmi K20 Pro",
+        "Mi 9T Pro"
+    ],
+    "raphaels": [
+        "Redmi K20 Pro Premium"
+    ],
+    "redwood": [
+        "Redmi Note 12 Pro Speed",
+        "POCO X5 5G Pro"
+    ],
+    "rembrandt": [
+        "Redmi K60E"
+    ],
+    "renoir": [
+        "Mi 11 Lite 5G"
+    ],
+    "riva": [
+        "Redmi 5A"
+    ],
+    "rock": [
+        "POCO M5"
+    ],
+    "rodin": [
+        "Redmi Turbo 4",
+        "POCO X7 Pro"
+    ],
+    "rolex": [
+        "Redmi 4A"
+    ],
+    "rosemary": [
+        "Redmi Note 10S"
+    ],
+    "rosemary_p": [
+        "POCO M5s"
+    ],
+    "rosy": [
+        "Redmi 5"
+    ],
+    "rothko": [
+        "Redmi K70 Ultra",
+        "Xiaomi 14T Pro"
+    ],
+    "ruan": [
+        "Redmi Pad Pro 5G",
+        "POCO Pad 5G"
+    ],
+    "rubens": [
+        "Redmi K50"
+    ],
+    "ruby": [
+        "Redmi Note 12 Pro",
+        "Redmi Note 12 Pro+",
+        "Redmi Note 12 Explorer"
+    ],
+    "ruyi": [
+        "Xiaomi MIX Flip"
+    ],
+    "sagit": [
+        "Mi 6"
+    ],
+    "sakura": [
+        "Redmi 6 Pro"
+    ],
+    "santoni": [
+        "Redmi 4X"
+    ],
+    "sapphire": [
+        "Redmi Note 13 4G"
+    ],
+    "sapphiren": [
+        "Redmi Note 13 4G NFC"
+    ],
+    "scorpio": [
+        "Mi Note 2"
+    ],
+    "sea": [
+        "Redmi Note 12S"
+    ],
+    "selene": [
+        "Redmi 10",
+        "Redmi 10 Prime (India)",
+        "Redmi 10 2022"
+    ],
+    "selenes": [
+        "Redmi Note 11 4G (China)"
+    ],
+    "sheng": [
+        "Xiaomi Pad 6S Pro 12.4"
+    ],
+    "shennong": [
+        "Xiaomi 14 Pro",
+        "Xiaom 14 Pro Titanium"
+    ],
+    "shennong_t": [
+        "Xiaomi 14 Pro Ti Satellite"
+    ],
+    "shiva": [
+        "Poco M2"
+    ],
+    "sirius": [
+        "Mi 8 SE"
+    ],
+    "sky": [
+        "Redmi Note 12R",
+        "Redmi 12 5G",
+        "POCO M6 Pro 5G"
+    ],
+    "socrates": [
+        "Redmi K60 Pro"
+    ],
+    "spark": [
+        "Redmi Pad SE 8.7 4G"
+    ],
+    "spes": [
+        "Redmi Note 11"
+    ],
+    "spesn": [
+        "Redmi Note 11 NFC"
+    ],
+    "star": [
+        "Mi 11 Pro",
+        "Xiaomi 11 Ultra"
+    ],
+    "sunstone": [
+        "Redmi Note 12"
+    ],
+    "surya": [
+        "POCO X3 NFC"
+    ],
+    "sweet": [
+        "Redmi Note 10 Pro"
+    ],
+    "sweet_k6a": [
+        "Redmi Note 12 Pro 4G"
+    ],
+    "sweetin": [
+        "Redmi Note 10 Pro",
+        "Redmi Note 10 Pro Max (India)"
+    ],
+    "tanzanite": [
+        "Redmi Note 14 4G"
+    ],
+    "taoyao": [
+        "Xiaomi 12 Lite"
+    ],
+    "tapas": [
+        "Redmi Note 12 4G"
+    ],
+    "thor": [
+        "Xiaomi 12S Ultra"
+    ],
+    "thyme": [
+        "Mi 10S"
+    ],
+    "tiare": [
+        "Redmi Go"
+    ],
+    "tiffany": [
+        "Mi 5X"
+    ],
+    "tissot": [
+        "Mi A1"
+    ],
+    "toco": [
+        "Mi Note 10 Lite"
+    ],
+    "topaz": [
+        "Redmi Note 12 4G NFC"
     ],
     "tucana": [
         "Mi Note 10",
         "Mi Note 10 Pro",
         "Mi CC9 Pro"
     ],
-    "olive": [
-        "Redmi 8"
-    ],
-    "olivelite": [
-        "Redmi 8A"
-    ],
-    "crux": [
-        "Mi 9 Pro 5G"
-    ],
-    "raphaels": [
-        "Redmi K20 Pro Premium"
-    ],
-    "ginkgo": [
-        "Redmi Note 8"
-    ],
-    "begonia": [
-        "Redmi Note 8 Pro"
-    ],
-    "laurel_sprout": [
-        "Mi A3"
-    ],
-    "pyxis": [
-        "Mi CC9",
-        "Mi 9 Lite"
-    ],
-    "laurus": [
-        "Mi CC9e"
-    ],
-    "vela": [
-        "Mi CC9 Meitu Edition"
-    ],
-    "raphael": [
-        "Redmi K20 Pro",
-        "Mi 9T Pro"
-    ],
-    "davinci": [
-        "Redmi K20",
-        "Mi 9T"
-    ],
-    "pine": [
-        "Redmi 7A"
-    ],
-    "onc": [
-        "Redmi Y3"
-    ],
-    "onclite": [
-        "Redmi 7"
-    ],
-    "violet": [
-        "Redmi Note 7 Pro"
-    ],
-    "andromeda": [
-        "Mi MIX 3 5G"
-    ],
-    "cepheus": [
-        "Mi 9"
-    ],
-    "grus": [
-        "Mi 9 SE"
-    ],
-    "tiare": [
-        "Redmi Go"
-    ],
-    "lavender": [
-        "Redmi Note 7"
-    ],
-    "lotus": [
-        "Mi Play"
-    ],
-    "perseus": [
-        "Mi MIX 3"
-    ],
     "tulip": [
         "Redmi Note 6 Pro"
-    ],
-    "equuleus": [
-        "Mi 8 Pro (UD)"
-    ],
-    "platina": [
-        "Mi 8 Lite"
-    ],
-    "beryllium": [
-        "POCO F1"
-    ],
-    "jasmine": [
-        "Mi A2"
-    ],
-    "daisy": [
-        "Mi A2 Lite"
-    ],
-    "nitrogen": [
-        "Mi Max 3"
-    ],
-    "sakura": [
-        "Redmi 6 Pro"
-    ],
-    "clover": [
-        "MiPad 4",
-        "Mi Pad 4 Plus"
-    ],
-    "cereus": [
-        "Redmi 6"
-    ],
-    "cactus": [
-        "Redmi 6A"
-    ],
-    "dipper": [
-        "Mi 8"
-    ],
-    "sirius": [
-        "Mi 8 SE"
-    ],
-    "ursa": [
-        "Mi 8 Explorer (EE)"
-    ],
-    "ysl": [
-        "Redmi S2 (Y2)"
-    ],
-    "wayne": [
-        "Mi 6X"
-    ],
-    "polaris": [
-        "Mi MIX 2S"
-    ],
-    "whyred": [
-        "Redmi Note 5"
-    ],
-    "rosy": [
-        "Redmi 5"
-    ],
-    "vince": [
-        "Redmi 5 Plus"
-    ],
-    "riva": [
-        "Redmi 5A"
-    ],
-    "jason": [
-        "Mi Note 3"
-    ],
-    "chiron": [
-        "Mi MIX 2"
-    ],
-    "tissot": [
-        "Mi A1"
-    ],
-    "ugglite": [
-        "Redmi Note 5A"
     ],
     "ugg": [
         "Redmi Note 5A Prime"
     ],
-    "tiffany": [
-        "Mi 5X"
+    "ugglite": [
+        "Redmi Note 5A"
     ],
-    "oxygen": [
-        "Mi Max 2"
+    "uke": [
+        "Xiaomi Pad 7"
     ],
-    "sagit": [
-        "Mi 6"
+    "umi": [
+        "Mi 10"
     ],
-    "cappu": [
-        "MiPad 3"
+    "unicorn": [
+        "Xiaomi 12S Pro"
     ],
-    "santoni": [
-        "Redmi 4X"
+    "ursa": [
+        "Mi 8 Explorer (EE)"
     ],
-    "mido": [
-        "Redmi Note 4X"
+    "vangogh": [
+        "Mi 10 Lite Zoom (Youth)"
     ],
-    "prada": [
-        "Redmi 4"
+    "vayu": [
+        "POCO X3 Pro"
     ],
-    "markw": [
-        "Redmi 4 Prime"
+    "vela": [
+        "Mi CC9 Meitu Edition"
     ],
-    "rolex": [
-        "Redmi 4A"
+    "venus": [
+        "Mi 11"
     ],
-    "scorpio": [
-        "Mi Note 2"
+    "vermeer": [
+        "Redmi K70",
+        "POCO F6 Pro"
     ],
-    "lithium": [
-        "Mi MIX"
+    "veux": [
+        "Redmi Note 11 Pro 5G",
+        "Redmi Note 11E Pro",
+        "Redmi Note 11 Pro+ 5G (India)",
+        "POCO X4 Pro 5G"
     ],
-    "helium": [
-        "Mi Max Prime"
+    "vida": [
+        "Redmi Note 11 Pro 4G (India)"
     ],
-    "capricorn": [
-        "Mi 5s"
+    "vili": [
+        "Xiaomi 11T Pro"
     ],
-    "natrium": [
-        "Mi 5s Plus"
+    "vince": [
+        "Redmi 5 Plus"
     ],
-    "nikel": [
-        "Redmi Note 4"
-    ],
-    "kate": [
-        "Redmi Note 3 Special Edition"
-    ],
-    "land": [
-        "Redmi 3S"
-    ],
-    "hydrogen": [
-        "Mi Max"
-    ],
-    "gemini": [
-        "Mi 5"
-    ],
-    "latte": [
-        "MiPad 2"
-    ],
-    "kenzo": [
-        "Redmi Note 3 Pro"
-    ],
-    "hermes": [
-        "Redmi Note 2"
-    ],
-    "ferrari": [
-        "Mi 4i"
+    "violet": [
+        "Redmi Note 7 Pro"
     ],
     "virgo": [
         "Mi Note"
     ],
+    "viva": [
+        "Redmi Note 11 Pro 4G"
+    ],
+    "warm": [
+        "Redmi A4 5G",
+        "POCO C75 5G"
+    ],
+    "water": [
+        "POCO C51",
+        "Redmi A2",
+        "Redmi A2+"
+    ],
+    "wayne": [
+        "Mi 6X"
+    ],
+    "whyred": [
+        "Redmi Note 5"
+    ],
+    "willow": [
+        "Redmi Note 8T"
+    ],
     "wt88047": [
         "Redmi 2"
-    ],
-    "dior": [
-        "Redmi Note 4G"
-    ],
-    "cancro": [
-        "Mi 3",
-        "Mi 4"
-    ],
-    "mocha": [
-        "MiPad 1"
-    ],
-    "armani": [
-        "Redmi 1S"
-    ],
-    "lcsh92_wet_jb9": [
-        "Redmi Note 3G"
     ],
     "wt98007": [
         "Redmi 1"
     ],
-    "aries": [
-        "Mi 2S"
+    "xaga": [
+        "Redmi Note 11T Pro",
+        "Redmi Note 11T Pro+",
+        "POCO X4 GT",
+        "Redmi K50i"
     ],
-    "emerald": [
-        "POCO M6 Pro (4G)",
-        "Redmi Note 13 Pro 4G"
+    "xuanyuan": [
+        "Xiaomi 15 Ultra"
+    ],
+    "xun": [
+        "Redmi Pad SE"
+    ],
+    "ysl": [
+        "Redmi S2 (Y2)"
+    ],
+    "yudi": [
+        "Xiaomi Pad 6 Max 14"
+    ],
+    "yuechu": [
+        "Xiaomi Civi 3"
+    ],
+    "yunluo": [
+        "Redmi Pad"
+    ],
+    "zeus": [
+        "Xiaomi 12 Pro"
+    ],
+    "zijin": [
+        "Xiaomi Civi 1S"
+    ],
+    "zircon": [
+        "Redmi Note 13 Pro+"
+    ],
+    "ziyi": [
+        "Xiaomi Civi 2",
+        "Xiaomi 13 Lite"
+    ],
+    "zizhan": [
+        "Xiaomi MIX Fold 2"
     ]
 }
