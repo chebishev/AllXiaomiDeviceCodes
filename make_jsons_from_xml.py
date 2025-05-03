@@ -26,13 +26,13 @@ for url in root.findall(".//{http://www.sitemaps.org/schemas/sitemap/0.9}loc"):
             for i in range(len(last_breadcrumb_list)):
                 market_names_as_keys[last_breadcrumb_list[i]] = codename
 
-file_name = "market_names_as_keys.json"
+file_name = "codenames_as_keys.json"
 with open(file_name, 'w') as json_file:
     json.dump(codenames_as_keys, json_file, indent=4)
 
 print(f"Data successfully written to {file_name}")
 
-file_name = "codenames_as_keys.json"
+file_name = "market_names_as_keys.json"
 with open(file_name, 'w') as json_file:
     json.dump(market_names_as_keys, json_file, indent=4)
 
