@@ -15,16 +15,16 @@ for url in root.findall(".//{http://www.sitemaps.org/schemas/sitemap/0.9}loc"):
     if loc.startswith("https://mirom.ezbox.idv.tw/en/phone/") and loc.count("/") == 6:
         # Format: https://mirom.ezbox.idv.tw/en/phone/{codename}/
         codename = loc.rstrip("/").split("/")[-1]
-        last_breadcrumb = get_last_breadcrumb(loc)
-        
-        if last_breadcrumb:
-            # get list of market names from last breadcrumb
-            last_breadcrub_list = last_breadcrumb.split(" / ")
+
+        # Get the list of market names from the last breadcrumb
+        last_breadcrumb_list = get_last_breadcrumb(loc)
+
+        if last_breadcrumb_list:
             # make codename as key and last breadcrumb list as value
-            codenames_as_keys[codename] = last_breadcrub_list
+            codenames_as_keys[codename] = last_breadcrumb_list
             # make market names as keys and codename as value
-            for i in range(len(last_breadcrub_list)):
-                market_names_as_keys[last_breadcrub_list[i]] = codename
+            for i in range(len(last_breadcrumb_list)):
+                market_names_as_keys[last_breadcrumb_list[i]] = codename
 
 file_name = "market_names_as_keys.json"
 with open(file_name, 'w') as json_file:
