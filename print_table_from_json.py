@@ -10,9 +10,8 @@ JSON file stored in the github repository of @XiaomiFirmwareUpdater."""
 
 table = PrettyTable(["Device", "Codename"])
 
-for market_name, codenames in get_json_data().items():
-    current_market_name = correct_market_name(market_name)
-    table.add_row([current_market_name, codenames[0]])
+for market_name, codename in get_json_data("market_names_as_keys.json").items():
+    table.add_row([market_name, codename])
 
 table.sortby = "Device"
 

@@ -1,7 +1,8 @@
 import requests
 import xml.etree.ElementTree as ET
 from scraper import get_last_breadcrumb
-import json
+from json_data import write_dictionary_to_json
+from fix_model_names import correct_market_names
 
 sitemap_url = "https://mirom.ezbox.idv.tw/sitemap.xml"
 xml_data = requests.get(sitemap_url).text
@@ -26,14 +27,5 @@ for url in root.findall(".//{http://www.sitemaps.org/schemas/sitemap/0.9}loc"):
             for i in range(len(last_breadcrumb_list)):
                 market_names_as_keys[last_breadcrumb_list[i]] = codename
 
-file_name = "codenames_as_keys.json"
-with open(file_name, 'w') as json_file:
-    json.dump(codenames_as_keys, json_file, indent=4)
-
-print(f"Data successfully written to {file_name}")
-
-file_name = "market_names_as_keys.json"
-with open(file_name, 'w') as json_file:
-    json.dump(market_names_as_keys, json_file, indent=4)
-
-print(f"Data successfully written to {file_name}")
+write_dictionary_to_json("codenames_as_keys.json", codenames_as_keys)
+write_dictionary_to_json("market_names_as_keys.json", market_names_as_keys)

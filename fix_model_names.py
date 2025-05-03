@@ -1,11 +1,47 @@
-def correct_market_name(market_name):
-    """
-    Corrects the market name by removing the prefix and adjusting the format.
-    """
-    if market_name.startswith("Xiaomi "):
-        sub_name = market_name[7:]
-        if sub_name.startswith(("Mi ", "Redmi ", "Poco", "Pocophone")):
-            return sub_name
-    return market_name
+correct_market_names_dict = {
+    "4 Pro": "Xiaomi Civi 4 Pro",
+    "Redmi 13R 5G": "Redmi 13C 5G",
+    "Ti": "Xiaom 14 Pro Titanium",
+    "13R Pro": "Redmi Note 13R Pro",
+    "A2+": "Redmi A2+",
+    "12 Pro+": "Redmi Note 12 Pro+",
+    "12 Explorer": "Redmi Note 12 Explorer",
+    "A1+": "Redmi A1+",
+    "Pro+": "Redmi Note 11T Pro+",
+    "Pro+ (China)": "Redmi Note 11 Pro+ (China)",
+    "Hypercharge (India)": "Xiaomi 11i Hypercharge 5G",
+    "Ultra": "Xiaomi 11 Ultra",
+    "Pro Max (India)": "Redmi Note 10 Pro Max (India)",
+    "K40 Pro+": "Redmi K40 Pro+",
+    "10T Pro": "Mi 10T Pro",
+    "9AT": "Redmi 9AT",
+    "9i": "Redmi 9i",
+    "9A Sport": "Redmi 9A Sport",
+    "9i Sport": "Redmi 9i Sport",
+    "8A Dual": "Redmi 8A Dual",
+    "Zoom Edition": "Redmi K30 Pro Zoom Edition",
+    "10 Pro": "Mi Note 10 Pro",
+    "Plus": "Mi Pad 4 Plus",
+}
 
-# TODO: To be removed
+def correct_market_names(market_names_list):
+    """
+    Refactor the market names by adding missing prefixes, missing models or just correcting the name.
+    Args:
+        market_names_list (list): List of market names to be checked and corrected.
+    Returns:
+        list: List of corrected market names.
+    """
+    seen_redmi_13r = False
+    for index, name in enumerate(market_names_list):
+            # Check if Redmi 13R 5G is twice in the list
+            if name == "Redmi 13R 5G" and not seen_redmi_13r:
+                seen_redmi_13r = True
+                continue
+            # Add Xiaomi 14T Pro to the list if Redmi K70 Ultra is in the list
+            if name == "Redmi K70 Ultra" and len(market_names_list) == 1:
+                 return ["Redmi K70 Ultra", "Xiaomi 14T Pro"]
+            if name in correct_market_names_dict:
+                # If it is, replace it with the correct name
+                market_names_list[index] = correct_market_names_dict[name]
+    return market_names_list
