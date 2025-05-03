@@ -46,3 +46,10 @@ def correct_market_names(market_names_list) -> list:
             # If it is, replace it with the correct name
             market_names_list[index] = correct_market_names_dict[name]
     return market_names_list
+
+# Example usage:
+# print(correct_market_names(["Xiaomi Civi 4", "4 Pro"]))
+# print(correct_market_names(["Redmi 13R 5G", "Redmi 13R 5G", "POCO M6 5G"]))
+# Result: 
+# ['Xiaomi Civi 4', 'Xiaomi Civi 4 Pro']
+# ['Redmi 13R 5G', 'Redmi 13C 5G', 'POCO M6 5G']

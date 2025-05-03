@@ -21,8 +21,10 @@ for url in root.findall(".//{http://www.sitemaps.org/schemas/sitemap/0.9}loc"):
         last_breadcrumb_list = get_last_breadcrumb(loc)
 
         if last_breadcrumb_list:
+            # filter the list through the correct_market_names function
+            corrected_list = correct_market_names(last_breadcrumb_list)
             # make codename as key and last breadcrumb list as value
-            codenames_as_keys[codename] = last_breadcrumb_list
+            codenames_as_keys[codename] = corrected_list
             # make market names as keys and codename as value
             for i in range(len(last_breadcrumb_list)):
                 market_names_as_keys[last_breadcrumb_list[i]] = codename
