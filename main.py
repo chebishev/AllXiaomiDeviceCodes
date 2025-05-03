@@ -1,4 +1,4 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 from json_data import get_json_data
 
 description = """
@@ -11,7 +11,7 @@ app = FastAPI(
     title="All Xiaomi mobile devices codenames",
     description=description,
     summary="API with all Xiaomi mobile devices codenames and market names.",
-    version="0.0.1",
+    version="0.1.0",
     contact={
         "name": "Atanas Chebishev",
         "url": "https://chebishev.github.io/",
@@ -74,7 +74,7 @@ async def get_device_by_market_name(market_name: str):
     if market_name in market_name_as_key:
         return {market_name: market_name_as_key[market_name]}
     else:
-        return {"error": "Device not found"}
+        raise HTTPException(status_code=404, detail="Device not found")
     
     # TODO: add proper 404 exception with description and status code
 
@@ -89,10 +89,11 @@ async def get_device_by_codename(codename: str):
 
     Returns the item's market name, otherwise raises a not found error.
     """
-    if codename in codename_as_key:
-        return {codename: codename_as_key[codename]}
+    current_codename = codename.lower()
+    if current_codename in codename_as_key:
+        return {codename: codename_as_key[current_codename]}
     else:
-        return {"error": "Device not found"}
+        raise HTTPException(status_code=404, detail="Device not found")
     
 
 # TODO: Add endpoint with link to device roms

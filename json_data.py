@@ -24,7 +24,7 @@ def write_dictionary_to_json(file_name: str, data: dict) -> None:
     """
     
     with open(file_name, "w") as json_file:
-        json.dump(data, json_file, indent=4)
+        json.dump(data, json_file, indent=4, sort_keys=True)
 
 # Example usage:
 # print(get_json_data("codenames_as_keys.json"))
