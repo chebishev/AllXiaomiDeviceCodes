@@ -1,8 +1,9 @@
 import requests
 from bs4 import BeautifulSoup
 import re
+from typing import Union, List
 
-def get_last_breadcrumb(url):
+def get_last_breadcrumb(url: str) -> Union[List[str], None]:
     """ 
     Get the last breadcrumb from the curent codename page.
     This is used to get the market names from the breadcrumb.
