@@ -65,7 +65,8 @@
         "Xiaomi MIX Fold 4"
     ],
     "rothko": [
-        "Redmi K70 Ultra"
+        "Redmi K70 Ultra",
+        "Xiaomi 14T Pro"
     ],
     "ruyi": [
         "Xiaomi MIX Flip"
@@ -95,7 +96,7 @@
     ],
     "chenfeng": [
         "Xiaomi Civi 4",
-        "4 Pro"
+        "Xiaomi Civi 4 Pro"
     ],
     "shennong_t": [
         "Xiaomi 14 Pro Ti Satellite"
@@ -114,7 +115,7 @@
     ],
     "air": [
         "Redmi 13R 5G",
-        "Redmi 13R 5G",
+        "Redmi 13C 5G",
         "POCO M6 5G"
     ],
     "duchamp": [
@@ -137,7 +138,7 @@
     ],
     "shennong": [
         "Xiaomi 14 Pro",
-        "Ti"
+        "Xiaom 14 Pro Titanium"
     ],
     "aristotle": [
         "Xiaomi 13T"
@@ -148,7 +149,7 @@
     ],
     "gold": [
         "Redmi Note 13 5G",
-        "13R Pro",
+        "Redmi Note 13R Pro",
         "POCO X6 Neo 5G"
     ],
     "zircon": [
@@ -209,7 +210,7 @@
     "water": [
         "POCO C51",
         "Redmi A2",
-        "A2+"
+        "Redmi A2+"
     ],
     "moonstone": [
         "POCO X5 5G"
@@ -240,8 +241,8 @@
     ],
     "ruby": [
         "Redmi Note 12 Pro",
-        "12 Pro+",
-        "12 Explorer"
+        "Redmi Note 12 Pro+",
+        "Redmi Note 12 Explorer"
     ],
     "sunstone": [
         "Redmi Note 12"
@@ -261,7 +262,7 @@
     ],
     "ice": [
         "Redmi A1",
-        "A1+",
+        "Redmi A1+",
         "POCO C50"
     ],
     "rock": [
@@ -300,7 +301,7 @@
     ],
     "xaga": [
         "Redmi Note 11T Pro",
-        "Pro+",
+        "Redmi Note 11T Pro+",
         "POCO X4 GT",
         "Redmi K50i"
     ],
@@ -380,10 +381,10 @@
     ],
     "pissarro": [
         "Redmi Note 11 Pro",
-        "Pro+ (China)",
+        "Redmi Note 11 Pro+ (China)",
         "Redmi Note 11 Pro+ 5G",
         "Xiaomi 11i",
-        "Hypercharge (India)"
+        "Xiaomi 11i Hypercharge 5G"
     ],
     "mona": [
         "Xiaomi CIVI"
@@ -430,7 +431,7 @@
     ],
     "star": [
         "Mi 11 Pro",
-        "Ultra"
+        "Xiaomi 11 Ultra"
     ],
     "renoir": [
         "Mi 11 Lite 5G"
@@ -460,7 +461,7 @@
     ],
     "sweetin": [
         "Redmi Note 10 Pro",
-        "Pro Max (India)"
+        "Redmi Note 10 Pro Max (India)"
     ],
     "camellian": [
         "Redmi Note 10 5G",
@@ -474,7 +475,7 @@
     ],
     "haydn": [
         "Redmi K40 Pro",
-        "K40 Pro+",
+        "Redmi K40 Pro+",
         "Mi 11i",
         "Mi 11X Pro"
     ],
@@ -501,7 +502,7 @@
     ],
     "apollo": [
         "Mi 10T",
-        "10T Pro",
+        "Mi 10T Pro",
         "Redmi K30S"
     ],
     "gauguin": [
@@ -533,10 +534,10 @@
     ],
     "dandelion": [
         "Redmi 9A",
-        "9AT",
-        "9i",
-        "9A Sport",
-        "9i Sport"
+        "Redmi 9AT",
+        "Redmi 9i",
+        "Redmi 9A Sport",
+        "Redmi 9i Sport"
     ],
     "angelica": [
         "Redmi 9C"
@@ -568,11 +569,11 @@
     ],
     "olivewood": [
         "Redmi 8A Pro",
-        "8A Dual"
+        "Redmi 8A Dual"
     ],
     "lmi": [
         "Redmi K30 Pro",
-        "Zoom Edition",
+        "Redmi K30 Pro Zoom Edition",
         "POCO F2 Pro"
     ],
     "curtana": [
@@ -604,7 +605,7 @@
     ],
     "tucana": [
         "Mi Note 10",
-        "10 Pro",
+        "Mi Note 10 Pro",
         "Mi CC9 Pro"
     ],
     "olive": [
@@ -705,7 +706,7 @@
     ],
     "clover": [
         "MiPad 4",
-        "Plus"
+        "Mi Pad 4 Plus"
     ],
     "cereus": [
         "Redmi 6"
