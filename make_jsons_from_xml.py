@@ -18,7 +18,8 @@ for url in root.findall(".//{http://www.sitemaps.org/schemas/sitemap/0.9}loc"):
         codename = loc.rstrip("/").split("/")[-1]
 
         # Get the list of market names from the last breadcrumb
-        last_breadcrumb_list = get_last_breadcrumb(loc)
+        # last_breadcrumb_list = get_last_breadcrumb(loc)
+        last_breadcrumb_list = get_last_breadcrumb("https://mirom.ezbox.idv.tw/en/phone/rothko/")
 
         if last_breadcrumb_list:
             # filter the list through the correct_market_names function
@@ -26,8 +27,8 @@ for url in root.findall(".//{http://www.sitemaps.org/schemas/sitemap/0.9}loc"):
             # make codename as key and last breadcrumb list as value
             codenames_as_keys[codename] = corrected_list
             # make market names as keys and codename as value
-            for i in range(len(last_breadcrumb_list)):
-                market_names_as_keys[last_breadcrumb_list[i]] = codename
+            for i in range(len(corrected_list)):
+                market_names_as_keys[corrected_list[i]] = codename
 
 write_dictionary_to_json("codenames_as_keys.json", codenames_as_keys)
 write_dictionary_to_json("market_names_as_keys.json", market_names_as_keys)
