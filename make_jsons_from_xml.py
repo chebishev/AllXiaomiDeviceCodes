@@ -18,8 +18,7 @@ for url in root.findall(".//{http://www.sitemaps.org/schemas/sitemap/0.9}loc"):
         codename = loc.rstrip("/").split("/")[-1]
 
         # Get the list of market names from the last breadcrumb
-        # last_breadcrumb_list = get_last_breadcrumb(loc)
-        last_breadcrumb_list = get_last_breadcrumb("https://mirom.ezbox.idv.tw/en/phone/rothko/")
+        last_breadcrumb_list = get_last_breadcrumb(loc)
 
         if last_breadcrumb_list:
             # filter the list through the correct_market_names function
