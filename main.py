@@ -104,8 +104,6 @@ async def get_device_by_codename(codename: str):
         raise HTTPException(status_code=404, detail="Device not found")
     
 
-# TODO: Add endpoint with link to device roms
-
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="127.0.0.1", port=8000)
