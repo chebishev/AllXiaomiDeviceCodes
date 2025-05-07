@@ -44,7 +44,7 @@ tags_metadata = [
 
 market_name_as_key = get_json_data("market_names_as_keys.json")
 codename_as_key = get_json_data("codenames_as_keys.json")
-
+device_url = "https://mirom.ezbox.idv.tw/en/phone/"
 records_list = [{"market_name": k, "codename": v} for k, v in market_name_as_key.items()]
 
 
@@ -69,14 +69,21 @@ async def get_device_by_market_name(market_name: str):
 
     - **market_name**: The name that we all know (Xiaomi 11, Redmi 2, Poco F3 GT, etc.).
 
-    Returns the codenames of all found items containing the queery, otherwise raises a not found error.
+    Returns the codenames of all found items containing the query and url to the device(s) page in mirom.exbox.idv.tw,
+     otherwise raises a NOT FOUND ERROR.
     So search for "Xiaomi 11" will return all devices with "Xiaomi 11" in their name. (6 devices in total)
-    Search for "Mi note" will return all devices with "Mi note" in their name. (89 devices in total)
+    Search for "Mi note" will return all devices with "Mi note" in their name (89 devices in total)
     """
     query = market_name.lower()
     matches_list = [r for r in records_list if query in r["market_name"].lower()]
     if matches_list:
-        return {match["market_name"]: match["codename"] for match in matches_list}
+        return {
+            match["market_name"]: {
+                "codename": match["codename"], 
+                "device_url": device_url + match["codename"]
+                } 
+                for match in matches_list
+                }
     else:
         raise HTTPException(status_code=404, detail="Device not found")
 
@@ -88,11 +95,11 @@ async def get_device_by_codename(codename: str):
 
     - **codename**: The name that Xiaomi uses to identify the device or set of devices.
 
-    Returns the item's market name, otherwise raises a not found error.
+    Returns the item's market name and link to the device(s) page in mirom.exbox.idv.tw, otherwise raises a not found error.
     """
     current_codename = codename.lower()
     if current_codename in codename_as_key:
-        return {current_codename: codename_as_key[current_codename]}
+        return {current_codename: codename_as_key[current_codename], "device_url": device_url + current_codename}
     else:
         raise HTTPException(status_code=404, detail="Device not found")
     
