@@ -39,8 +39,12 @@ This project uses a scheduled GitHub Action to automate data updates:
 ## 📂 Structure
 
 ```plaintext
-📁 allxiaomidevicecodes/
-├── cli/        # Console version (table output)
-├── api/        # FastAPI web app
-├── data/       # Cached device data
+📁 AllXiaomiDeviceCodes/
+├── codenames_as_keys.json #
+├── fix_model_names.py #
+├── json_data.py #
+├── main.py      # FastAPI web app
+├── make_jsons_from_xml.py # 
+├── print_table_from_json.py #
+├── scraper.py   # cli version
 └── .github/    # GitHub Actions workflow
