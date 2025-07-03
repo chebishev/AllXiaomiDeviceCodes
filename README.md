@@ -1,5 +1,10 @@
 # AllXiaomiDeviceCodes
 
+[![Update Devices (Cron)](https://github.com/chebishev/AllXiaomiDeviceCodes/actions/workflows/update.yml/badge.svg)](https://github.com/chebishev/AllXiaomiDeviceCodes/actions/workflows/update.yml)
+![Last Commit](https://img.shields.io/github/last-commit/chebishev/AllXiaomiDeviceCodes)
+![Repo Size](https://img.shields.io/github/repo-size/chebishev/AllXiaomiDeviceCodes)
+![License](https://img.shields.io/github/license/chebishev/AllXiaomiDeviceCodes)
+
 AllXiaomiDeviceCodes is a tool that fetches and parses device data from [mirom.ezbox.idv.tw](https://mirom.ezbox.idv.tw/sitemap.xml), presenting it in two convenient formats:
 
 - 📦 A **console app** that displays a table for quick device code name lookup.
