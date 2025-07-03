@@ -1,6 +1,6 @@
 # AllXiaomiDeviceCodes
 
-[![Update Devices (Cron)](https://github.com/chebishev/AllXiaomiDeviceCodes/actions/workflows/update.yml/badge.svg)](https://github.com/chebishev/AllXiaomiDeviceCodes/actions/workflows/update.yml)
+[![Update Devices (Cron)](https://github.com/chebishev/AllXiaomiDeviceCodes/actions/workflows/update_json_files.yml/badge.svg)](https://github.com/chebishev/AllXiaomiDeviceCodes/actions/workflows/update.yml)
 ![Last Commit](https://img.shields.io/github/last-commit/chebishev/AllXiaomiDeviceCodes)
 ![Repo Size](https://img.shields.io/github/repo-size/chebishev/AllXiaomiDeviceCodes)
 ![License](https://img.shields.io/github/license/chebishev/AllXiaomiDeviceCodes)
