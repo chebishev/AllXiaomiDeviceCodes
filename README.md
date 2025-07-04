@@ -53,3 +53,18 @@ This project uses a scheduled GitHub Action to automate data updates:
 ├── print_table_from_json.py #
 ├── scraper.py   # cli version
 └── .github/    # GitHub Actions workflow
+
+📌 Notes
+
+The API is hosted on Render and may require a few seconds to spin up if inactive.
+
+The project does not store personal data or require authentication.
+---
+
+🤝 Credits
+
+Source of inspiration: XiaomiFirmwareUpdater
+
+Data source: mirom.ezbox.idv.tw
+---
+
