@@ -45,13 +45,14 @@ This project uses a scheduled GitHub Action to automate data updates:
 
 ```plaintext
 📁 AllXiaomiDeviceCodes/
-├── codenames_as_keys.json #
-├── fix_model_names.py #
-├── json_data.py #
+├── codenames_as_keys.json
+├── fix_model_names.py # unifies, adds and corrects market names
+├── json_data.py # writes dictionaries to json or converts json to dictionary
 ├── main.py      # FastAPI web app
-├── make_jsons_from_xml.py # 
-├── print_table_from_json.py #
-├── scraper.py   # cli version
+├── make_jsons_from_xml.py # generates codenames_as_keys.json and market_names_as_keys.json
+├── market_names_as_keys.json
+├── print_table_from_json.py # cli version
+├── scraper.py   # returns market name and codename from given url
 └── .github/    # GitHub Actions workflow
 
 📌 Notes
