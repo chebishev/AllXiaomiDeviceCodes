@@ -277,6 +277,10 @@
     "flourite": [
         "Redmi Note 15 Pro+ 5G"
     ],
+    "flute": [
+        "Redmi Pad 2 Pro",
+        "POCO Pad M1"
+    ],
     "fog": [
         "Redmi 10C"
     ],
@@ -312,6 +316,9 @@
         "Redmi Note 13 5G",
         "Redmi Note 13R Pro",
         "POCO X6 Neo 5G"
+    ],
+    "goya": [
+        "Xiaomi 15T"
     ],
     "gram": [
         "POCO M2 Pro"
@@ -372,6 +379,9 @@
     ],
     "klein": [
         "Redmi A3x"
+    ],
+    "klimt": [
+        "Xiaomi 15T Pro"
     ],
     "koto": [
         "Redmi Pad 2 4G"
@@ -546,6 +556,9 @@
     "oxygen": [
         "Mi Max 2"
     ],
+    "pandora": [
+        "Xiaomi 17 Pro"
+    ],
     "pearl": [
         "Redmi Note 12T Pro"
     ],
@@ -559,6 +572,9 @@
     "phoenix": [
         "Redmi K30",
         "POCO X2"
+    ],
+    "piano": [
+        "Xiaomi Pad 8 Pro"
     ],
     "picasso": [
         "Redmi K30 5G"
@@ -588,11 +604,17 @@
     "polaris": [
         "Mi MIX 2S"
     ],
+    "popsicle": [
+        "Xiaomi 17 Pro Max"
+    ],
     "prada": [
         "Redmi 4"
     ],
     "psyche": [
         "Xiaomi 12X"
+    ],
+    "pudding": [
+        "Xiaomi 17"
     ],
     "pyxis": [
         "Mi CC9",
@@ -775,6 +797,10 @@
     "topaz": [
         "Redmi Note 12 4G NFC"
     ],
+    "tornado": [
+        "Redmi 15C 5G",
+        "15R 5G"
+    ],
     "tucana": [
         "Mi Note 10",
         "Mi Note 10 Pro",
@@ -894,6 +920,9 @@
     ],
     "yunluo": [
         "Redmi Pad"
+    ],
+    "yupei": [
+        "Xiaomi Pad 8"
     ],
     "zeus": [
         "Xiaomi 12 Pro"

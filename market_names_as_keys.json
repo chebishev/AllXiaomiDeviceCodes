@@ -1,4 +1,5 @@
 {
+    "15R 5G": "tornado",
     "Mi 10": "umi",
     "Mi 10 Lite": "monet",
     "Mi 10 Lite Zoom (Youth)": "vangogh",
@@ -108,6 +109,7 @@
     "POCO M7 Plus 5G": "spring",
     "POCO M7 Pro 5G": "beryl",
     "POCO Pad 5G": "ruan",
+    "POCO Pad M1": "flute",
     "POCO X2": "phoenix",
     "POCO X3 GT": "chopin",
     "POCO X3 NFC": "surya",
@@ -146,6 +148,7 @@
     "Redmi 15": "creek",
     "Redmi 15 5G": "spring",
     "Redmi 15C 4G": "dew",
+    "Redmi 15C 5G": "tornado",
     "Redmi 1S": "armani",
     "Redmi 2": "wt88047",
     "Redmi 3S": "land",
@@ -304,6 +307,7 @@
     "Redmi Pad": "yunluo",
     "Redmi Pad 2": "taiko",
     "Redmi Pad 2 4G": "koto",
+    "Redmi Pad 2 Pro": "flute",
     "Redmi Pad Pro": "dizi",
     "Redmi Pad Pro 5G": "ruan",
     "Redmi Pad SE": "xun",
@@ -347,6 +351,11 @@
     "Xiaomi 15 Pro": "haotian",
     "Xiaomi 15 Ultra": "xuanyuan",
     "Xiaomi 15S Pro": "dijun",
+    "Xiaomi 15T": "goya",
+    "Xiaomi 15T Pro": "klimt",
+    "Xiaomi 17": "pudding",
+    "Xiaomi 17 Pro": "pandora",
+    "Xiaomi 17 Pro Max": "popsicle",
     "Xiaomi CIVI": "mona",
     "Xiaomi Civi 1S": "zijin",
     "Xiaomi Civi 2": "ziyi",
@@ -367,5 +376,7 @@
     "Xiaomi Pad 7": "uke",
     "Xiaomi Pad 7 Pro": "muyu",
     "Xiaomi Pad 7 Ultra": "jinghu",
-    "Xiaomi Pad 7S Pro 12.5": "violin"
+    "Xiaomi Pad 7S Pro 12.5": "violin",
+    "Xiaomi Pad 8": "yupei",
+    "Xiaomi Pad 8 Pro": "piano"
 }
