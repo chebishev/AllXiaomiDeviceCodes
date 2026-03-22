@@ -37,6 +37,10 @@
         "Mi 10T Pro",
         "Redmi K30S"
     ],
+    "arctic": [
+        "Redmi A7 Pro",
+        "POCO C81 Pro"
+    ],
     "ares": [
         "Redmi K40 Gaming Edition",
         "POCO F3 GT"
@@ -200,7 +204,8 @@
         "Redmi 10A"
     ],
     "dash": [
-        "Redmi Turbo 5 Max"
+        "Redmi Turbo 5 Max",
+        "POCO X8 Pro Max"
     ],
     "daumier": [
         "Xiaomi 12 Pro (Dimensity)"
@@ -285,7 +290,8 @@
         "POCO M4 Pro"
     ],
     "flourite": [
-        "Redmi Note 15 Pro+ 5G"
+        "Redmi Note 15 Pro+ 5G",
+        "POCO M8 Pro 5G"
     ],
     "flute": [
         "Redmi Pad 2 Pro",
@@ -400,7 +406,8 @@
         "Redmi Pad 2 4G"
     ],
     "kunzite": [
-        "Redmi Note 15 5G"
+        "Redmi Note 15 5G",
+        "POCO M8 5G"
     ],
     "lake": [
         "Redmi 14C",
@@ -729,6 +736,10 @@
     "selenes": [
         "Redmi Note 11 4G (China)"
     ],
+    "serenity": [
+        "Redmi A5",
+        "POCO C71"
+    ],
     "sheng": [
         "Xiaomi Pad 6S Pro 12.4"
     ],
@@ -752,6 +763,9 @@
     ],
     "socrates": [
         "Redmi K60 Pro"
+    ],
+    "somalia": [
+        "POCO C85x 5G"
     ],
     "spark": [
         "Redmi Pad SE 8.7 4G"
