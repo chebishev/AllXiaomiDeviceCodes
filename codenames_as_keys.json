@@ -87,6 +87,9 @@
         "Redmi 13 5G",
         "POCO M6 Plus 5G"
     ],
+    "byron": [
+        "Xiaomi 17 Max China"
+    ],
     "cactus": [
         "Redmi 6A"
     ],
@@ -134,6 +137,9 @@
     ],
     "cezanne": [
         "Redmi K30 Ultra"
+    ],
+    "chagall": [
+        "Xiaomi 17T EEA"
     ],
     "charoite": [
         "Redmi Note 15 Pro 4G"
@@ -261,6 +267,9 @@
     "equuleus": [
         "Mi 8 Pro (UD)"
     ],
+    "erhu": [
+        "Redmi Pad 2 SE 4G"
+    ],
     "evergo": [
         "Redmi Note 11 5G (China)",
         "Redmi Note 11T 5G (India)"
@@ -341,6 +350,11 @@
     ],
     "grus": [
         "Mi 9 SE"
+    ],
+    "guitar": [
+        "Redmi Pad 2 SE",
+        "Pad 2 9.7",
+        "POCO Pad C1"
     ],
     "haotian": [
         "Xiaomi 15 Pro"
@@ -639,6 +653,9 @@
     "prada": [
         "Redmi 4"
     ],
+    "prague": [
+        "Redmi K90 Max"
+    ],
     "psyche": [
         "Xiaomi 12X"
     ],
@@ -913,6 +930,9 @@
     "viva": [
         "Redmi Note 11 Pro 4G"
     ],
+    "warhol": [
+        "Xiaomi 17T Pro EEA"
+    ],
     "warm": [
         "Redmi A4 5G",
         "POCO C75 5G"
@@ -948,6 +968,9 @@
     ],
     "xun": [
         "Redmi Pad SE"
+    ],
+    "yili": [
+        "Redmi K Pad 2"
     ],
     "ysl": [
         "Redmi S2 (Y2)"
