@@ -54,6 +54,10 @@
     "armani": [
         "Redmi 1S"
     ],
+    "athens": [
+        "Redmi K100 Pro",
+        "POCO F9 Pro"
+    ],
     "atom": [
         "Redmi 10X"
     ],
@@ -386,6 +390,10 @@
         "Redmi K50 Gaming",
         "Poco F4 GT"
     ],
+    "iolite": [
+        "Redmi Note 17 Pro 5G",
+        "POCO X8"
+    ],
     "ishtar": [
         "Xiaomi 13 Ultra"
     ],
@@ -452,6 +460,10 @@
     "lcsh92_wet_jb9": [
         "Redmi Note 3G"
     ],
+    "leedsa": [
+        "Redmi 17",
+        "POCO C95 Pro"
+    ],
     "light": [
         "Redmi Note 11E",
         "POCO M4 5G"
@@ -513,6 +525,10 @@
     ],
     "mido": [
         "Redmi Note 4X"
+    ],
+    "mist": [
+        "Redmi Note 17 5G",
+        "POCO M8 Power"
     ],
     "mocha": [
         "MiPad 1"
@@ -784,6 +800,9 @@
     "somalia": [
         "POCO C85x 5G"
     ],
+    "songyuan": [
+        "Redmi K100 Pro Max"
+    ],
     "spark": [
         "Redmi Pad SE 8.7 4G"
     ],
@@ -804,6 +823,11 @@
     "star": [
         "Mi 11 Pro",
         "Xiaomi 11 Ultra"
+    ],
+    "steppe": [
+        "Redmi 17 5G",
+        "Redmi M100",
+        "POCO M8x"
     ],
     "sunstone": [
         "Redmi Note 12"
@@ -936,6 +960,9 @@
     "warm": [
         "Redmi A4 5G",
         "POCO C75 5G"
+    ],
+    "warsaw": [
+        "Redmi K90 Ultra China"
     ],
     "water": [
         "POCO C51",
