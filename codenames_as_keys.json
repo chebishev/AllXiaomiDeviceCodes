@@ -91,6 +91,9 @@
         "Redmi 13 5G",
         "POCO M6 Plus 5G"
     ],
+    "brussels": [
+        "Redmi Note 17 Pro Max 5G EEA"
+    ],
     "byron": [
         "Xiaomi 17 Max"
     ],
@@ -375,6 +378,9 @@
     "hermes": [
         "Redmi Note 2"
     ],
+    "hongkong": [
+        "Xiaomi 18 Pro"
+    ],
     "houji": [
         "Xiaomi 14"
     ],
@@ -464,6 +470,9 @@
         "Redmi 17",
         "POCO C95 Pro"
     ],
+    "lhasa": [
+        "Xiaomi 18 Fold"
+    ],
     "light": [
         "Redmi Note 11E",
         "POCO M4 5G"
@@ -498,6 +507,9 @@
     ],
     "luming": [
         "Xiaomi Civi 5 Pro"
+    ],
+    "madrid": [
+        "Xiaomi 18 Pro Max"
     ],
     "malachite": [
         "Redmi Note 14 Pro 5G",
@@ -786,6 +798,9 @@
     "shiva": [
         "Poco M2"
     ],
+    "shuntian": [
+        "Xiaomi Pad 9 Pro"
+    ],
     "sirius": [
         "Mi 8 SE"
     ],
@@ -999,6 +1014,9 @@
     "yili": [
         "Redmi K Pad 2"
     ],
+    "yingtian": [
+        "Xiaomi Pad 9 Pro Max China"
+    ],
     "ysl": [
         "Redmi S2 (Y2)"
     ],
@@ -1013,6 +1031,9 @@
     ],
     "yupei": [
         "Xiaomi Pad 8"
+    ],
+    "zephyr": [
+        "Redmi Note 17 4G EEA"
     ],
     "zeus": [
         "Xiaomi 12 Pro"

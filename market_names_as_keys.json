@@ -307,8 +307,10 @@
     "Redmi Note 15 Pro 4G": "charoite",
     "Redmi Note 15 Pro+ 5G": "flourite",
     "Redmi Note 15R": "spring",
+    "Redmi Note 17 4G EEA": "zephyr",
     "Redmi Note 17 5G": "mist",
     "Redmi Note 17 Pro 5G": "iolite",
+    "Redmi Note 17 Pro Max 5G EEA": "brussels",
     "Redmi Note 2": "hermes",
     "Redmi Note 3 Pro": "kenzo",
     "Redmi Note 3 Special Edition": "kate",
@@ -396,6 +398,9 @@
     "Xiaomi 17 Ultra": "nezha",
     "Xiaomi 17T EEA": "chagall",
     "Xiaomi 17T Pro EEA": "warhol",
+    "Xiaomi 18 Fold": "lhasa",
+    "Xiaomi 18 Pro": "hongkong",
+    "Xiaomi 18 Pro Max": "madrid",
     "Xiaomi CIVI": "mona",
     "Xiaomi Civi 1S": "zijin",
     "Xiaomi Civi 2": "ziyi",
@@ -418,5 +423,7 @@
     "Xiaomi Pad 7 Ultra": "jinghu",
     "Xiaomi Pad 7S Pro 12.5": "violin",
     "Xiaomi Pad 8": "yupei",
-    "Xiaomi Pad 8 Pro": "piano"
+    "Xiaomi Pad 8 Pro": "piano",
+    "Xiaomi Pad 9 Pro": "shuntian",
+    "Xiaomi Pad 9 Pro Max China": "yingtian"
 }
