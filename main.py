@@ -47,7 +47,7 @@ codename_as_key = get_json_data("codenames_as_keys.json")
 device_url = "https://mirom.ezbox.idv.tw/en/phone/"
 records_list = [{"market_name": k, "codename": v} for k, v in market_name_as_key.items()]
 
-@app.get("/")
+@app.get("/", tags=["Just in case you didn't hit the docs page"])
 def read_root():
     return {"message": "All Xiaomi mobile devices API is running"}
     
