@@ -11,14 +11,14 @@ app = FastAPI(
     title="All Xiaomi mobile devices codenames",
     description=description,
     summary="API with all Xiaomi mobile devices codenames and market names.",
-    version="0.1.0",
+    version="0.2.0",
     contact={
         "name": "Atanas Chebishev",
         "url": "https://chebishev.github.io/",
         "email": "atanas.chebishev@gmail.com",
     },
     license_info={
-        "name": "Apache 2.0",
+        "name": "MIT License",
         "identifier": "MIT",
     },
 )
@@ -47,7 +47,10 @@ codename_as_key = get_json_data("codenames_as_keys.json")
 device_url = "https://mirom.ezbox.idv.tw/en/phone/"
 records_list = [{"market_name": k, "codename": v} for k, v in market_name_as_key.items()]
 
-
+@app.get("/")
+def read_root():
+    return {"message": "All Xiaomi mobile devices API is running"}
+    
 @app.get("/all_devices_by_market_name", tags=["Devices by market name"])
 async def get_all_devices():
     """
